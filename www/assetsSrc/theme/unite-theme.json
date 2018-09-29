@@ -1,0 +1,13 @@
+{
+	"themeHeaders": [],
+	"customHeaders": [],
+	"backgroundColor": "#339933",
+	"themeColor": "#339933",
+	"title": "Web tty",
+	"shortName": "webtty",
+	"metaDescription": "Website for tty emulator",
+	"metaKeywords": [
+		"webtty"
+	],
+	"metaAuthor": "Westixy, Lukia"
+}

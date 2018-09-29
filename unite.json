@@ -1,0 +1,105 @@
+{
+	"license": "MIT",
+	"applicationFramework": "React",
+	"sourceLanguage": "JavaScript",
+	"linter": "EsLint",
+	"moduleType": "CommonJs",
+	"bundler": "Webpack",
+	"unitTestRunner": "None",
+	"e2eTestRunner": "None",
+	"cssPre": "Css",
+	"cssPost": "PostCss",
+	"cssLinter": "StyleLint",
+	"documenter": "EsDoc",
+	"packageManager": "Npm",
+	"taskManager": "Gulp",
+	"server": "BrowserSync",
+	"ide": "VSCode",
+	"packageName": "webtty",
+	"ides": [],
+	"clientPackages": {
+		"react": {
+			"name": "react",
+			"main": "umd/react.development.js",
+			"mainMinified": "umd/react.production.min.js",
+			"version": "^16.3.2"
+		},
+		"react-dom": {
+			"name": "react-dom",
+			"main": "umd/react-dom.development.js",
+			"mainMinified": "umd/react-dom.production.min.js",
+			"version": "^16.3.2"
+		},
+		"react-router-dom": {
+			"name": "react-router-dom",
+			"main": "umd/react-router-dom.js",
+			"mainMinified": "umd/react-router-dom.min.js",
+			"version": "^4.2.2"
+		},
+		"systemjs-plugin-css": {
+			"name": "systemjs-plugin-css",
+			"main": "css.js",
+			"map": {
+				"css": "systemjs-plugin-css"
+			},
+			"loaders": {
+				"*.css": "css"
+			},
+			"version": "^0.1.37"
+		},
+		"systemjs": {
+			"name": "systemjs",
+			"main": "dist/system.src.js",
+			"mainMinified": "dist/system.js",
+			"scriptIncludeMode": "notBundled",
+			"isModuleLoader": true,
+			"version": "^0.21.3"
+		}
+	},
+	"buildConfigurations": {
+		"dev": {
+			"bundle": false,
+			"minify": false,
+			"sourcemaps": true,
+			"pwa": false
+		},
+		"prod": {
+			"bundle": true,
+			"minify": true,
+			"sourcemaps": false,
+			"pwa": false
+		}
+	},
+	"sourceExtensions": [
+		"jsx",
+		"js"
+	],
+	"viewExtensions": [
+		"html"
+	],
+	"platforms": {
+		"Web": {}
+	},
+	"styleExtension": "css",
+	"srcDistReplace": "(require.*?)(../src/)",
+	"srcDistReplaceWith": "$1../dist/",
+	"dirs": {
+		"wwwRoot": "./www/",
+		"packagedRoot": "./packaged/",
+		"platformRoot": "./platform/",
+		"docsRoot": "./docs/",
+		"www": {
+			"src": "./src/",
+			"dist": "./dist/",
+			"cssSrc": "./cssSrc/",
+			"cssDist": "./css/",
+			"reports": "./test/reports/",
+			"package": "./node_modules/",
+			"build": "./build/",
+			"assets": "./assets/",
+			"assetsSrc": "./assetsSrc/",
+			"configuration": "./configuration/"
+		}
+	},
+	"uniteVersion": "1.7.12"
+}
