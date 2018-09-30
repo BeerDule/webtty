@@ -3,8 +3,9 @@
 ## Getting started
 
 - `cd www`
-- `gulp build --watch`
-- 
+- `npm i`
+- `npm i -g gulp`
+- `npm run dev`
 
 
 In this folder you will find **unite.json** which is the main configuration file used by UniteJS. This file is used by the app tasks so should not be deleted.
