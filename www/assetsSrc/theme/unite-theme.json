@@ -1,8 +1,8 @@
 {
 	"themeHeaders": [],
 	"customHeaders": [],
-	"backgroundColor": "#339933",
-	"themeColor": "#339933",
+	"backgroundColor": "#233521",
+	"themeColor": "#9fc69c",
 	"title": "Web tty",
 	"shortName": "webtty",
 	"metaDescription": "Website for tty emulator",
